@@ -69,6 +69,7 @@ a {
 .hero-wrap {
     position: relative;
     display: flex;
+    justify-content: center;
     flex-direction: column;
     height: calc(100vh - 90px);
     background: #e6f0ff;
@@ -119,11 +120,8 @@ a {
     border-radius: 8px;
 }
 
-.hero {
-    margin-top: 130px;
-}
 
-.hero .sub-title {
+.hero-wrap .sub-title {
     color: #687690;
     font-size: 1.8rem;
     font-weight: 500;
@@ -131,7 +129,7 @@ a {
     line-height: 1.5;
 }
 
-.hero .title {
+.hero-wrap .title {
     margin-top: 8px;
     color: #000336;
     font-size: 6.2rem;
@@ -139,11 +137,11 @@ a {
     line-height: 1.18; /* 118.75% */
 }
 
-.hero .info {
+.hero-wrap .info {
     width: 51%;
 }
 
-.hero .desc {
+.hero-wrap .desc {
     margin-top: 30px;
     font-size: 1.8rem;
     font-weight: 400;
