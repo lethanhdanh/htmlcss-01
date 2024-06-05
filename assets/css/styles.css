@@ -53,16 +53,28 @@ a {
 
 /* Header */
 
-.header {
-    position: relative;
+.fix-header {
     background: #e6f0ff;
+    padding-top: 26px;
+    position: sticky;
+    top: -26px;
+    z-index: 1;
+}
+
+.hero-wrap {
+    position: relative;
+    display: flex;
+    flex-direction: column;
     height: 100vh;
+    background: #e6f0ff;
 }
 
 .navbar {
     display: flex;
     align-items: center;
-    padding-top: 38px;
+    /* padding-top: 38px; */
+    padding: 12px 0;
+    /* background-color: orange; */
 }
 
 .navbar ul {
@@ -170,7 +182,7 @@ a {
 }
 
 .clients .images {
-    margin-top: 70px;
+    margin-top: 70gpx;
     display: flex;
     justify-content: space-between;
     align-items: center;
